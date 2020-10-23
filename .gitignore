@@ -326,10 +326,6 @@ $RECYCLE.BIN/
 # Custom entries
 #
 
-# Dist directories built via the Typescript compiler
-dist/esm
-dist/cjs
+webpack.stats.json
 
-# Optional rdf-test-suite cache directory
-.rdf-test-suite-cache
 

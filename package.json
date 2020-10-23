@@ -17,7 +17,8 @@
   "main": "doesntexist.js",
   "scripts": {
     "test": "echo 'error'",
-    "build": "webpack -c webpack.config.js"
+    "build": "webpack -c webpack.config.js",
+    "analyze-bundle": "webpack -c webpack.config.js --analyze"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "level-js": "^5.0.2",
     "quadstore": "^7.0.1-alpha.12",
     "webpack": "^4.44.2",
+    "webpack-bundle-analyzer": "^3.9.0",
     "webpack-cli": "^4.1.0"
   },
   "dependencies": {},
