@@ -15,12 +15,7 @@ by running `npm run build`.
 ## Dependencies
 
 **IMPORTANT:** all dependencies must be installed before launching the `build`
-script:
-
-- install all dev dependencies using `npm install`;
-- install all dev dependencies of the `quadstore_comunica` dependency by going
-  into the latter's directory with `cd node_modules/quadstore-comunica` and 
-  using `npm install` once again.
+script. Remember to run `npm install`.
 
 ## Quick test
 
