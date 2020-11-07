@@ -2,10 +2,11 @@
 const {
   leveljs,
   Quadstore,
-  dataFactory,
+  DataFactory,
 } = quadstore;
 
 const main = async () => {
+  const dataFactory = new DataFactory();
   console.log('Ok, if we\'re here the browser has loaded everything correctly');
   const store = new Quadstore({
     dataFactory,
