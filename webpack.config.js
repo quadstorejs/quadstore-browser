@@ -11,11 +11,6 @@ module.exports = {
     libraryTarget: 'umd',
   },
   target: 'web',
-  resolve: {
-    alias: {
-      'stream': 'readable-stream',
-    }
-  },
   externals: [
     (context, request, callback) => {
       if (request.startsWith('_webpack_ignored_')) {
