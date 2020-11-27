@@ -11,12 +11,4 @@ module.exports = {
     libraryTarget: 'umd',
   },
   target: 'web',
-  externals: [
-    (context, request, callback) => {
-      if (request.startsWith('_webpack_ignored_')) {
-        return callback(null, 'commonjs2 ' + request);
-      }
-      callback();
-    },
-  ],
 };
