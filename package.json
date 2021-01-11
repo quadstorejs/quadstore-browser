@@ -25,9 +25,9 @@
     "url": "https://github.com/beautifulinteractions/node-quadstore-webpack-bundle.git"
   },
   "devDependencies": {
-    "rdf-data-factory": "^1.0.4",
     "level-js": "^5.0.2",
-    "quadstore": "^7.3.0",
+    "quadstore": "^7.3.1",
+    "rdf-data-factory": "^1.0.4",
     "webpack": "^4.44.2",
     "webpack-bundle-analyzer": "^3.9.0",
     "webpack-cli": "^4.1.0"
