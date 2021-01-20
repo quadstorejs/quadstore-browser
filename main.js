@@ -3,6 +3,7 @@ const {
   leveljs,
   Quadstore,
   DataFactory,
+  newEngine,
 } = quadstore;
 
 const main = async () => {
@@ -11,10 +12,13 @@ const main = async () => {
   const store = new Quadstore({
     dataFactory,
     backend: leveljs('quadstore'),
+    comunica: newEngine(),
   });
   console.log('We have instantiated the store');
   await store.open();
   console.log('We have opened the store');
+  await store.clear();
+  console.log('We have cleared the store');
   await store.put(dataFactory.quad(
     dataFactory.namedNode('http://example.com/theanswer'),
     dataFactory.namedNode('http://example.com/is'),
