@@ -26,8 +26,8 @@
   },
   "devDependencies": {
     "level-js": "^5.0.2",
-    "quadstore": "8.0.0-beta.0",
-    "quadstore-comunica": "^0.2.2-beta.0",
+    "quadstore": "8.0.0",
+    "quadstore-comunica": "^0.3.1",
     "rdf-data-factory": "^1.0.4",
     "webpack": "^4.44.2",
     "webpack-bundle-analyzer": "^3.9.0",
