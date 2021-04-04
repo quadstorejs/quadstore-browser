@@ -25,8 +25,10 @@ const main = async () => {
     dataFactory.literal('42', dataFactory.namedNode('https://www.w3.org/2001/XMLSchema#interger')),
   ));
   console.log('We have added a quad');
-  const results = await store.get({});
-  console.log('We have queried the store and got the following quads', results.items);
+  const getResults = await store.get({});
+  console.log('We have queried the store and got the following quads', getResults.items);
+  const sparqlResults = await store.sparql('SELECT * {?s ?p ?o}');
+  console.log('We have queried the store via SPARQL and got the following quads', sparqlResults.items);
   await store.close();
   console.log('We have closed the store');
 };
