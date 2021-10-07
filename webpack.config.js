@@ -1,5 +1,6 @@
 
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
   mode: 'production',
@@ -14,4 +15,16 @@ module.exports = {
   optimization: {
     minimize: true,
   },
+  resolve: {
+    fallback: {
+      stream: require.resolve('readable-stream'),
+      buffer: require.resolve('buffer'),
+    },
+  },
+  plugins: [
+    new webpack.ProvidePlugin({
+      // process: 'process/browser.js',
+      Buffer: ['buffer', 'Buffer'],
+    }),
+  ]
 };
