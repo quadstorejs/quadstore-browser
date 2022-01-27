@@ -27,7 +27,7 @@ writes the results via `console.log()`.
 
 Issues should be reported in quadstore's [issue tracker][2].
 
-[0]: https://github.com/beautifulinteractions/node-quadstore
+[0]: https://github.com/belayeng/quadstore
 [1]: https://www.npmjs.com/package/level-js
-[2]: https://github.com/beautifulinteractions/node-quadstore/issues
+[2]: https://github.com/belayeng/quadstore/issues
 [3]: https://www.npmjs.com/package/rdf-data-factory

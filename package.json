@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/beautifulinteractions/node-quadstore-webpack-bundle.git"
+    "url": "https://github.com/belayeng/quadstore-webpack-bundle.git"
   },
   "devDependencies": {
     "buffer": "^6.0.3",
@@ -35,12 +35,12 @@
     "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^4.9.0"
   },
-  "author": "Jacopo Scazzosi <me@jacoscaz.com>",
+  "author": "Jacopo Scazzosi <jacopo@scazzosi.com>",
   "engineStrict": true,
   "engines": {
     "node": ">=10.0.0"
   },
   "license": "MIT",
-  "homepage": "https://github.com/beautifulinteractions/node-quadstore",
-  "bugs": "https://github.com/beautifulinteractions/node-quadstore/issues"
+  "homepage": "https://github.com/belayeng/quadstore",
+  "bugs": "https://github.com/belayeng/quadstore/issues"
 }
