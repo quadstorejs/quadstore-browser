@@ -5,7 +5,7 @@ This project serves as a reference for developers looking to use [quadstore][0]
 in web browsers.
 
 The `webpack.config.js` file contains the reference configuration for Webpack
-**4.x** that is used to produce the `quadstore.bundle.js` file.
+**5.x** that is used to produce the `quadstore.bundle.js` file.
   
 The `quadstore.bundle.js` file is a UMD module suitable for use in browsers
 that contains [quadstore][0], the [level-js][1] backend and a

@@ -27,18 +27,18 @@
   "devDependencies": {
     "buffer": "^6.0.3",
     "level-js": "^6.1.0",
-    "quadstore": "10.0.0-alpha.0",
-    "quadstore-comunica": "2.0.0-alpha.1",
+    "quadstore": "10.0.0",
+    "quadstore-comunica": "2.0.0",
     "rdf-data-factory": "^1.1.0",
     "readable-stream": "^3.6.0",
-    "webpack": "^5.69.1",
+    "webpack": "^5.70.0",
     "webpack-bundle-analyzer": "^4.5.0",
     "webpack-cli": "^4.9.2"
   },
   "author": "Jacopo Scazzosi <jacopo@scazzosi.com>",
   "engineStrict": true,
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=14.0.0"
   },
   "license": "MIT",
   "homepage": "https://github.com/belayeng/quadstore",
