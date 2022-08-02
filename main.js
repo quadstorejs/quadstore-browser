@@ -1,6 +1,6 @@
 
 const {
-  leveljs,
+  BrowserLevel,
   Quadstore,
   DataFactory,
   Engine,
@@ -15,7 +15,7 @@ const main = async () => {
   console.log('Ok, if we\'re here the browser has loaded everything correctly');
   const store = new Quadstore({
     dataFactory,
-    backend: leveljs('quadstore'),
+    backend: new BrowserLevel('quadstore'),
   });
   const engine = new Engine(store);
   console.log('We have instantiated the store');

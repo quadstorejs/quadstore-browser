@@ -8,7 +8,7 @@ The `webpack.config.js` file contains the reference configuration for Webpack
 **5.x** that is used to produce the `quadstore.bundle.js` file.
   
 The `quadstore.bundle.js` file is a UMD module suitable for use in browsers
-that contains [quadstore][0], the [level-js][1] backend and a
+that contains [quadstore][0], the [browser-level][1] backend and a
 [reference implementation][3] of the RDF/JS DataFactory interface. It is built
 by running `npm run build`.
 
@@ -28,6 +28,6 @@ writes the results via `console.log()`.
 Issues should be reported in quadstore's [issue tracker][2].
 
 [0]: https://github.com/belayeng/quadstore
-[1]: https://www.npmjs.com/package/level-js
+[1]: https://www.npmjs.com/package/browser-level
 [2]: https://github.com/belayeng/quadstore/issues
 [3]: https://www.npmjs.com/package/rdf-data-factory
