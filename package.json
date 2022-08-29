@@ -28,7 +28,7 @@
   "devDependencies": {
     "browser-level": "1.0.1",
     "quadstore": "11.0.0-beta.4",
-    "quadstore-comunica": "3.0.0-beta.3",
+    "quadstore-comunica": "3.0.0-beta.4",
     "events": "^3.3.0",
     "rdf-data-factory": "^1.1.1",
     "webpack": "^5.74.0",
