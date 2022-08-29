@@ -16,6 +16,9 @@ module.exports = {
   target: 'web',
   optimization: {
     minimize: true,
+    moduleIds: 'named',
+    usedExports: true,
+    concatenateModules: false
   },
   resolve: {
     alias: {
