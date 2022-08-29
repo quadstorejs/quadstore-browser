@@ -1,10 +1,5 @@
 
-const {
-  BrowserLevel,
-  Quadstore,
-  DataFactory,
-  Engine,
-} = quadstore;
+import { DataFactory, Quadstore, BrowserLevel, Engine } from '../dist/quadstore.bundle.js';
 
 const main = async () => {
   const dataFactory = new DataFactory();

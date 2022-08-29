@@ -13,12 +13,13 @@
     "rdfjs",
     "browser"
   ],
-  "type": "commonjs",
+  "type": "module",
   "main": "doesntexist.js",
   "scripts": {
     "test": "echo 'error'",
-    "build": "webpack -c webpack.config.js",
-    "analyze-bundle": "webpack -c webpack.config.js --analyze"
+    "clean": "rm -rf dist",
+    "build": "npm run clean && webpack -c webpack.config.cjs",
+    "analyze-bundle": "webpack -c webpack.config.cjs --analyze"
   },
   "repository": {
     "type": "git",
@@ -26,8 +27,8 @@
   },
   "devDependencies": {
     "browser-level": "1.0.1",
-    "quadstore": "11.0.0-beta.2",
-    "quadstore-comunica": "3.0.0-beta.2",
+    "quadstore": "11.0.0-beta.4",
+    "quadstore-comunica": "3.0.0-beta.3",
     "events": "^3.3.0",
     "rdf-data-factory": "^1.1.1",
     "webpack": "^5.74.0",

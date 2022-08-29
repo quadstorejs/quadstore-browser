@@ -128,7 +128,6 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
@@ -327,5 +326,7 @@ $RECYCLE.BIN/
 #
 
 webpack.stats.json
+
+dist/quadstore.bundle.js.LICENSE.txt
 
 
