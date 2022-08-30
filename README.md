@@ -23,7 +23,29 @@ engine, the [browser-level][1] backend for persistent storage via IndexedDB and
 The `static/index.html` page and associated `dist/main.js` script provide a 
 small demonstration of how to use all of the above.
 
-The bundle file can also be requested via https://cdn.jsdelivr.net/gh/belayeng/quadstore-webpack-bundle/quadstore.bundle.js 
+The bundle file is also served at 
+https://cdn.jsdelivr.net/gh/belayeng/quadstore-browser/dist/bundle.js
+and can be used in webpages as follows:
+
+```html
+<script type="module">
+    import {
+        Quadstore,
+        Engine,
+        BrowserLevel,
+        DataFactory,
+    } from 'https://cdn.jsdelivr.net/gh/belayeng/quadstore-browser/dist/bundle.js';
+    const backend = new BrowserLevel('quadstore');
+    const dataFactory = new DataFactory();
+    const store = new Quadstore({ backend, dataFactory });
+    const engine = new Engine(store);
+    await store.open();
+    await store.clear();
+    await store.put(dataFactory.quad(dataFactory.namedNode('ex://s'), dataFactory.namedNode('ex://p'), dataFactory.namedNode('ex://o')));
+    const stream = await engine.queryBindings(`SELECT * WHERE { ?s ?p ?o }`);
+    stream.on('data', console.log);
+</script>
+```
 
 ## How to build
 
