@@ -13,12 +13,12 @@ The bundle contains [quadstore][0], the [quadstore-comunica][4] SPARQL query
 engine, the [browser-level][1] backend for persistent storage via IndexedDB and
 [rdf-data-factory][3], an implementation of the RDF/JS `DataFactory` interface.
 
-| package              | version         |
-|----------------------|-----------------|
-| `quadstore`          | `11.0.0-beta.4` |
-| `quadstore-comunica` | `3.0.0-beta.5`  |
-| `browser-level`      | `1.0.1`         |
-| `rdf-data-factory`   | `1.1.1`         |
+| package              | version  |
+|----------------------|----------|
+| `quadstore`          | `11.0.0` |
+| `quadstore-comunica` | `3.0.0`  |
+| `browser-level`      | `1.0.1`  |
+| `rdf-data-factory`   | `1.1.1`  |
 
 The `static/index.html` page and associated `dist/main.js` script provide a 
 small demonstration of how to use all of the above.
