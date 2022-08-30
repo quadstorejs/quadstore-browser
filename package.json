@@ -20,7 +20,7 @@
     "test": "echo 'error'",
     "clean": "rm -rf dist",
     "build:ts": "tsc",
-    "build:webpack": "webpack -c webpack.config.cjs && rm dist/index.js",
+    "build:webpack": "webpack -c webpack.config.cjs",
     "build": "npm run clean && npm run build:ts && npm run build:webpack",
     "analyze-bundle": "webpack -c webpack.config.cjs --analyze"
   },
@@ -31,8 +31,8 @@
   "devDependencies": {
     "browser-level": "1.0.1",
     "events": "^3.3.0",
-    "quadstore": "11.0.0-beta.4",
-    "quadstore-comunica": "3.0.0-beta.5",
+    "quadstore": "11.0.1",
+    "quadstore-comunica": "3.0.0",
     "rdf-data-factory": "^1.1.1",
     "typescript": "^4.8.2",
     "webpack": "^5.74.0",
