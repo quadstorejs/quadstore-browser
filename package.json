@@ -1,7 +1,7 @@
 {
-  "name": "quadstore-webpack-bundle",
+  "name": "quadstore-browser",
   "version": "0.0.1",
-  "description": "Reference for using Webpack to bundle quadstore for browser usage",
+  "description": "Reference repository for using quadstore in browsers",
   "keywords": [
     "node",
     "nodejs",
@@ -14,23 +14,27 @@
     "browser"
   ],
   "type": "module",
-  "main": "doesntexist.js",
+  "main": "dist/bundle.js",
+  "types": "dist/bundle.d.ts",
   "scripts": {
     "test": "echo 'error'",
     "clean": "rm -rf dist",
-    "build": "npm run clean && webpack -c webpack.config.cjs",
+    "build:ts": "tsc",
+    "build:webpack": "webpack -c webpack.config.cjs && rm dist/index.js",
+    "build": "npm run clean && npm run build:ts && npm run build:webpack",
     "analyze-bundle": "webpack -c webpack.config.cjs --analyze"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/belayeng/quadstore-webpack-bundle.git"
+    "url": "https://github.com/belayeng/quadstore-browser.git"
   },
   "devDependencies": {
     "browser-level": "1.0.1",
+    "events": "^3.3.0",
     "quadstore": "11.0.0-beta.4",
     "quadstore-comunica": "3.0.0-beta.5",
-    "events": "^3.3.0",
     "rdf-data-factory": "^1.1.1",
+    "typescript": "^4.8.2",
     "webpack": "^5.74.0",
     "webpack-bundle-analyzer": "^4.6.1",
     "webpack-cli": "^4.10.0"
@@ -38,7 +42,7 @@
   "author": "Jacopo Scazzosi <jacopo@scazzosi.com>",
   "engineStrict": true,
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=16.0.0"
   },
   "license": "MIT",
   "homepage": "https://github.com/belayeng/quadstore",

@@ -3,10 +3,10 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: path.resolve(__dirname, 'src', 'bundle.js'),
+  entry: path.resolve(__dirname, 'dist', 'bundle.js'),
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'quadstore.bundle.js',
+    filename: 'bundle.js',
     libraryTarget: 'module',
     chunkFormat: false,
   },
