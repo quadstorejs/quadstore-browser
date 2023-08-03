@@ -15,10 +15,10 @@ engine, the [browser-level][1] backend for persistent storage via IndexedDB and
 
 | package              | version  |
 |----------------------|----------|
-| `quadstore`          | `12.0.0` |
-| `quadstore-comunica` | `3.1.0`  |
+| `quadstore`          | `12.0.2` |
+| `quadstore-comunica` | `3.1.1`  |
 | `browser-level`      | `1.0.1`  |
-| `rdf-data-factory`   | `1.1.1`  |
+| `rdf-data-factory`   | `1.1.2`  |
 
 The `static/index.html` page and associated `dist/main.js` script provide a 
 small demonstration of how to use all of the above.
