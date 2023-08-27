@@ -26,15 +26,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/belayeng/quadstore-browser.git"
+    "url": "https://github.com/jacoscaz/quadstore-browser.git"
   },
   "devDependencies": {
     "browser-level": "1.0.1",
     "events": "^3.3.0",
-    "quadstore": "12.1.0",
-    "quadstore-comunica": "3.2.1",
+    "quadstore": "12.2.0",
+    "quadstore-comunica": "3.3.0",
     "rdf-data-factory": "^1.1.2",
-    "typescript": "^5.1.6",
+    "typescript": "^5.2.2",
     "webpack": "^5.88.2",
     "webpack-bundle-analyzer": "^4.9.0",
     "webpack-cli": "^5.1.4"
@@ -45,6 +45,6 @@
     "node": ">=16.0.0"
   },
   "license": "MIT",
-  "homepage": "https://github.com/belayeng/quadstore",
-  "bugs": "https://github.com/belayeng/quadstore/issues"
+  "homepage": "https://github.com/jacoscaz/quadstore",
+  "bugs": "https://github.com/jacoscaz/quadstore/issues"
 }

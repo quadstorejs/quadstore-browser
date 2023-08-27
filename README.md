@@ -24,7 +24,7 @@ The `static/index.html` page and associated `dist/main.js` script provide a
 small demonstration of how to use all of the above.
 
 The bundle file is also served at 
-https://cdn.jsdelivr.net/gh/belayeng/quadstore-browser/dist/bundle.js
+https://cdn.jsdelivr.net/gh/jacoscaz/quadstore-browser/dist/bundle.js
 and can be used in webpages as follows:
 
 ```html
@@ -34,7 +34,7 @@ and can be used in webpages as follows:
         Engine,
         BrowserLevel,
         DataFactory,
-    } from 'https://cdn.jsdelivr.net/gh/belayeng/quadstore-browser/dist/bundle.js';
+    } from 'https://cdn.jsdelivr.net/gh/jacoscaz/quadstore-browser/dist/bundle.js';
     const backend = new BrowserLevel('quadstore');
     const dataFactory = new DataFactory();
     const store = new Quadstore({ backend, dataFactory });
@@ -60,6 +60,6 @@ Issues should be reported in quadstore's [issue tracker][2].
 
 [0]: https://www.npmjs.com/package/quadstore
 [1]: https://www.npmjs.com/package/browser-level
-[2]: https://github.com/belayeng/quadstore/issues
+[2]: https://github.com/jacoscaz/quadstore/issues
 [3]: https://www.npmjs.com/package/rdf-data-factory
 [4]: https://www.npmjs.com/package/quadstore-comunica

@@ -1,7 +1,7 @@
 
 # MIT License
 
-Copyright (c) 2017 - 2020 Belay Engineering s.r.l.
+Copyright (c) 2017 - 2020 Jacopo Scazzosi <jacopo@scazzosi.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
