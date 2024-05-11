@@ -31,12 +31,12 @@
   "devDependencies": {
     "browser-level": "1.0.1",
     "events": "^3.3.0",
-    "quadstore": "^13.1.0",
-    "quadstore-comunica": "^4.2.0",
+    "quadstore": "^13.1.1",
+    "quadstore-comunica": "^4.3.0",
     "rdf-data-factory": "^1.1.2",
-    "typescript": "^5.4.2",
-    "webpack": "^5.90.3",
-    "webpack-bundle-analyzer": "^4.10.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-bundle-analyzer": "^4.10.2",
     "webpack-cli": "^5.1.4"
   },
   "author": "Jacopo Scazzosi <jacopo@scazzosi.com>",
