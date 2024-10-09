@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jacoscaz/quadstore-browser.git"
+    "url": "https://github.com/quadstorejs/quadstore-browser.git"
   },
   "devDependencies": {
     "browser-level": "1.0.1",
@@ -45,6 +45,6 @@
     "node": ">=16.0.0"
   },
   "license": "MIT",
-  "homepage": "https://github.com/jacoscaz/quadstore",
-  "bugs": "https://github.com/jacoscaz/quadstore/issues"
+  "homepage": "https://github.com/quadstorejs/quadstore",
+  "bugs": "https://github.com/quadstorejs/quadstore/issues"
 }
