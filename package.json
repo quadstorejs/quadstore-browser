@@ -32,7 +32,7 @@
     "browser-level": "1.0.1",
     "events": "^3.3.0",
     "quadstore": "^13.2.3",
-    "quadstore-comunica": "^4.4.4",
+    "quadstore-comunica": "^4.5.0",
     "rdf-data-factory": "^1.1.2",
     "typescript": "^5.6.3",
     "webpack": "^5.95.0",
