@@ -29,13 +29,13 @@
     "url": "https://github.com/quadstorejs/quadstore-browser.git"
   },
   "devDependencies": {
-    "browser-level": "1.0.1",
+    "browser-level": "2.0.0",
     "events": "^3.3.0",
-    "quadstore": "^13.2.3",
-    "quadstore-comunica": "^4.5.0",
+    "quadstore": "^14.0.0",
+    "quadstore-comunica": "^5.0.0",
     "rdf-data-factory": "^1.1.2",
-    "typescript": "^5.6.3",
-    "webpack": "^5.95.0",
+    "typescript": "^5.7.2",
+    "webpack": "^5.96.1",
     "webpack-bundle-analyzer": "^4.10.2",
     "webpack-cli": "^5.1.4"
   },
