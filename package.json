@@ -31,13 +31,13 @@
   "devDependencies": {
     "browser-level": "2.0.0",
     "events": "^3.3.0",
-    "quadstore": "^14.0.0",
-    "quadstore-comunica": "^5.0.0",
-    "rdf-data-factory": "^1.1.2",
-    "typescript": "^5.7.2",
-    "webpack": "^5.96.1",
+    "quadstore": "^15.0.0",
+    "quadstore-comunica": "^6.0.0",
+    "rdf-data-factory": "^2.0.2",
+    "typescript": "^5.7.3",
+    "webpack": "^5.98.0",
     "webpack-bundle-analyzer": "^4.10.2",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^6.0.1"
   },
   "author": "Jacopo Scazzosi <jacopo@scazzosi.com>",
   "engineStrict": true,
