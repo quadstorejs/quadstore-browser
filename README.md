@@ -15,15 +15,15 @@ engine, the [browser-level][1] backend for persistent storage via IndexedDB and
 
 | package              | version  |
 |----------------------|----------|
-| `quadstore`          | `15.0.0` |
-| `quadstore-comunica` | `6.0.0`  |
-| `browser-level`      | `2.0.0`  |
+| `quadstore`          | `15.1.0` |
+| `quadstore-comunica` | `6.0.1`  |
+| `browser-level`      | `3.0.0`  |
 | `rdf-data-factory`   | `2.0.2`  |
 
-The `static/index.html` page and associated `dist/main.js` script provide a 
+The `static/index.html` page and associated `dist/main.js` script provide a
 small demonstration of how to use all of the above.
 
-The bundle file is also served at 
+The bundle file is also served at
 https://cdn.jsdelivr.net/gh/quadstorejs/quadstore-browser/dist/bundle.js
 and can be used in webpages as follows:
 
