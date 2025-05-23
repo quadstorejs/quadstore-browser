@@ -31,11 +31,11 @@
   "devDependencies": {
     "browser-level": "3.0.0",
     "events": "^3.3.0",
-    "quadstore": "^15.1.0",
-    "quadstore-comunica": "^6.0.1",
+    "quadstore": "^15.2.0",
+    "quadstore-comunica": "^6.1.0",
     "rdf-data-factory": "^2.0.2",
     "typescript": "^5.8.3",
-    "webpack": "^5.99.7",
+    "webpack": "^5.99.9",
     "webpack-bundle-analyzer": "^4.10.2",
     "webpack-cli": "^6.0.1"
   },
