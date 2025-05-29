@@ -2,7 +2,7 @@ import { DataFactory, RdfStore, Engine } from './bundle.js';
 let then = Date.now();
 const log = (message) => {
     const now = Date.now();
-    console.log(new Date().toISOString(), message, `+${now - then}ms`);
+    console.log('%s %s +%sms', new Date().toISOString(), message, now - then);
     then = now;
 };
 const main = async () => {
@@ -34,6 +34,6 @@ const main = async () => {
     const quads = await bindingsStream.toArray();
     log(`Evaluated query "${queryStr}", ${quads.length} matching quads found`);
     // await store.close();
-    log('Store closed');
+    // log('Store closed');
 };
 main().catch(console.error);
