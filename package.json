@@ -29,6 +29,7 @@
     "url": "https://github.com/quadstorejs/quadstore-browser.git"
   },
   "devDependencies": {
+    "@types/n3": "^1.25.1",
     "browser-level": "3.0.0",
     "events": "^3.3.0",
     "quadstore": "^15.3.0",
@@ -46,5 +47,9 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/quadstorejs/quadstore",
-  "bugs": "https://github.com/quadstorejs/quadstore/issues"
+  "bugs": "https://github.com/quadstorejs/quadstore/issues",
+  "dependencies": {
+    "n3": "^1.25.2",
+    "rdf-stores": "^2.1.1"
+  }
 }
