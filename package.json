@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "@types/n3": "^1.25.1",
+    "@types/setimmediate": "^1.0.4",
     "browser-level": "3.0.0",
     "events": "^3.3.0",
     "quadstore": "^15.3.0",
@@ -50,6 +51,7 @@
   "bugs": "https://github.com/quadstorejs/quadstore/issues",
   "dependencies": {
     "n3": "^1.25.2",
-    "rdf-stores": "^2.1.1"
+    "rdf-stores": "^2.1.1",
+    "setimmediate": "^1.0.5"
   }
 }

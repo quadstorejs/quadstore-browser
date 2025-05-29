@@ -1,4 +1,4 @@
-
+import './setimmediate.js';
 import { DataFactory, RdfStore, Engine } from './bundle.js';
 
 let then = Date.now();
