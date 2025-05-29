@@ -5,7 +5,7 @@ let then = Date.now();
 
 const log = (message: string) => { 
   const now = Date.now();
-  console.log(new Date().toISOString(), message, `+${now - then}ms`);
+  console.log('%s %s +%sms', new Date().toISOString(), message, now - then);
   then = now;
 };
 
@@ -52,7 +52,7 @@ const main = async () => {
   log(`Evaluated query "${queryStr}", ${quads.length} matching quads found`);
 
   // await store.close();
-  log('Store closed');
+  // log('Store closed');
 };
 
 main().catch(console.error);
