@@ -31,7 +31,7 @@
   "devDependencies": {
     "browser-level": "3.0.0",
     "events": "^3.3.0",
-    "quadstore": "^15.4.1",
+    "quadstore": "^15.4.2",
     "quadstore-comunica": "^6.3.1",
     "rdf-data-factory": "^2.1.0",
     "typescript": "^7.0.2",
